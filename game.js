@@ -60,6 +60,7 @@ function checkAnswer(){
             $("body").removeClass('game-over');
         }, 200);
         $("h1").text("Game Over, Press Any Key to Play Again");
+        startOver();
     }
 }
 
